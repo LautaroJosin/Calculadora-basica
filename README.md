@@ -16,18 +16,3 @@
 
 > docker run -p 127.0.0.1:80:80 calculadora-basica
 
-## Notas personales : 
-
-***¿Como hice para guardar la app en github?***
-
-Cree el repositorio y obtuve el enlace : git@github.com:LautaroJosin/Calculadora-basica.git
-
-Abri la terminal en el directorio de la app y ejecute los siguientes comandos :
-
-1. git init
-2. git add .
-3. git commit -m "Primer commit"
-
-Luego ejecute el comando : git remote add origin <tu-enlace>
-
-Finalmente ejecute el comando : git push -u origin master
