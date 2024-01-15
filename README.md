@@ -2,37 +2,38 @@
 
 ## Recomendaciones :
 
-> El codigo html es mejorable 
-> El codigo js tambien es mejorable, fue sacado de chatGPT
+1. El codigo html es mejorable 
 
-## Aclaraciones sobre el dockerfile :
+2. El codigo js tambien es mejorable, fue sacado de chatGPT
 
-> Uso la imagen oficial mínima de Nginx (nginx:alpine) como base. Esta imagen está diseñada para ser ligera y eficiente
+## Aclaraciones sobre el dockerfile
 
-> Copio los archivos index.html, script.js y style.css al directorio predeterminado de Nginx (/usr/share/nginx html). Esto asegura que Nginx sirva estos archivos cuando el contenedor se esté ejecutando.
+1. Uso la imagen oficial mínima de Nginx (nginx:alpine) como base. Esta imagen está diseñada para ser ligera y eficiente
 
-> Expongo el puerto 80, que es el puerto por defecto utilizado por Nginx para servir contenido web.
+2. Copio los archivos index.html, script.js y style.css al directorio predeterminado de Nginx (/usr/share/nginx html). Esto asegura que Nginx sirva estos archivos cuando el contenedor se esté ejecutando.
 
-## Cómo construir la imagen :
+3. Expongo el puerto 80, que es el puerto por defecto utilizado por Nginx para servir contenido web.
+
+## Cómo construir la imagen
 
 > docker build -t calculadora-basica .
 
-## Cómo ejecutar el container :
+## Cómo ejecutar el container
 
 > docker run -p 127.0.0.1:80:80 calculadora-basica
 
-#### Notas personales : 
+## Notas personales : 
 
-> ¿Como hice para guardar la app en github?
+***¿Como hice para guardar la app en github?***
 
-> Cree el repositorio y obtuve el enlace : git@github.com:LautaroJosin/Calculadora-basica.git
+Cree el repositorio y obtuve el enlace : git@github.com:LautaroJosin/Calculadora-basica.git
 
-> Abri la terminal en el directorio de la app y ejecute los siguientes comandos :
+Abri la terminal en el directorio de la app y ejecute los siguientes comandos :
 
 1. git init
 2. git add .
 3. git commit -m "Primer commit"
 
-> Luego ejecute el comando : git remote add origin <tu-enlace>
+Luego ejecute el comando : git remote add origin <tu-enlace>
 
-> Finalmente ejecute el comando : git push -u origin master
+Finalmente ejecute el comando : git push -u origin master
