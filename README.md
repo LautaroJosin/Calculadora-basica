@@ -1,11 +1,5 @@
 # Readme de Calculadora básica
 
-## Recomendaciones :
-
-1. El codigo html es mejorable 
-
-2. El codigo js tambien es mejorable, fue sacado de chatGPT
-
 ## Aclaraciones sobre el dockerfile
 
 1. Uso la imagen oficial mínima de Nginx (nginx:alpine) como base. Esta imagen está diseñada para ser ligera y eficiente
